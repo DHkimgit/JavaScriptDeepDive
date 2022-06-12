@@ -23,6 +23,7 @@ const sum2 = function () {
 const sum3 = function (...args) {
   return args.reduce((pre, cur) => pre + cur, 0);
 };
+
 console.log(sum1(1));
 console.log(sum1(1, 2));
 console.log(sum1(1, 2, 3));
